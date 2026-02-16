@@ -1,0 +1,37 @@
+﻿name: Catppuccin Mocha
+is_dark_mode: true
+background_color: '#1E1E2E'             # Base (White key lanes in track window)
+background_color_pointer_over: '#313244'    # Surface0
+background_color_pressed: '#45475A'         # Surface1
+background_color_disabled: '#11111B'        # Mantle
+foreground_color: '#CDD6F4'             # Text
+foreground_color_pointer_over: '#F5E0DC'    # Rosewater
+foreground_color_pressed: '#B4BEFE'         # Lavender
+foreground_color_disabled: '#6C7086'        # Overlay0
+border_color: '#585B70'                 # Surface2
+border_color_pointer_over: '#F5C2E7'        # Pink
+system_accent_color: '#89B4FA'          # Blue
+system_accent_color_light1: '#B4BEFE'   # Lavender
+system_accent_color_dark1: '#74C7EC'    # Sapphire
+neutral_accent_color: '#9399B2'         # Overlay2
+neutral_accent_color_pointer_over: '#7F849C' # Overlay1
+accent_color1: '#89B4FA'                # Blue
+accent_color2: '#F5C2E7'                # Pink
+accent_color3: '#CBA6F7'                # Mauve
+tick_line_color: '#585B70'              # Surface2
+bar_number_color: '#A6ADC8'             # Subtext0
+
+# --- TRACK WINDOW FIXES ---
+track_background_alt_color: '#181825'   # Mantle (Matches Black Keys background)
+final_pitch_color: '#f38ba8'            # Crust (Darker contrast for lane separation)
+
+# --- PIANO KEY COLORS ---
+white_key_color_left: '#CDD6F4'         # Text (Light Key Body)
+white_key_color_right: '#BAC2DE'        # Subtext1
+white_key_name_color: '#181825'         # Base
+center_key_color_left: '#F5E0DC'        # Rosewater
+center_key_color_right: '#F2CDCD'       # Flamingo
+center_key_name_color: '#1E1E2E'        # Base
+black_key_color_left: '#11111B'         # Crust (Dark Key Body)
+black_key_color_right: '#1E1E2E'        # Mantle
+black_key_name_color: '#CDD6F4'         # Text
