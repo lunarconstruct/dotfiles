@@ -1,1 +1,6 @@
-bindr = SUPER, SUPER_L, exec, pkill rofi || rofi 
+#!/bin/bash
+if pgrep -x "rofi" > /dev/null; then
+    pkill rofi
+else
+    rofi -show drun
+fi
