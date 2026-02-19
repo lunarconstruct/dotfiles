@@ -1,0 +1,11 @@
+2026/02/17-21:39:06.347 4e169 Reusing MANIFEST /home/lunarconstruct/.config/feishin/Session Storage/MANIFEST-000001
+2026/02/17-21:39:06.347 4e169 Recovering log #3
+2026/02/17-21:39:06.347 4e169 Level-0 table #3: started
+2026/02/17-21:39:06.350 4e169 Level-0 table #3: 14993 bytes OK
+2026/02/17-21:39:06.351 4e169 Recovering log #4
+2026/02/17-21:39:06.351 4e169 Reusing old log /home/lunarconstruct/.config/feishin/Session Storage/000004.log 
+2026/02/17-21:39:06.355 4e169 Delete type=0 #3
+2026/02/17-21:39:06.355 4e169 Delete type=2 #5
+2026/02/17-21:43:35.299 4e179 Level-0 table #6: started
+2026/02/17-21:43:35.303 4e179 Level-0 table #6: 13419 bytes OK
+2026/02/17-21:43:35.307 4e179 Delete type=0 #4

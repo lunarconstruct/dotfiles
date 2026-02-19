@@ -1,0 +1,24 @@
+2026/02/17-21:39:06.219 4e169 Reusing MANIFEST /home/lunarconstruct/.config/feishin/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2026/02/17-21:39:06.220 4e169 Recovering log #3
+2026/02/17-21:39:06.223 4e169 Reusing old log /home/lunarconstruct/.config/feishin/IndexedDB/file__0.indexeddb.leveldb/000003.log 
+2026/02/17-22:48:02.916 4e179 Level-0 table #5: started
+2026/02/17-22:48:02.966 4e179 Level-0 table #5: 1988266 bytes OK
+2026/02/17-22:48:02.971 4e179 Delete type=0 #3
+2026/02/17-23:40:08.558 4e169 Level-0 table #7: started
+2026/02/17-23:40:08.596 4e169 Level-0 table #7: 2094220 bytes OK
+2026/02/17-23:40:08.603 4e169 Delete type=0 #4
+2026/02/17-23:47:42.435 4e17a Compacting 1@1 + 1@2 files
+2026/02/17-23:47:42.449 4e17a Generated table #8@1: 27 keys, 13826 bytes
+2026/02/17-23:47:42.449 4e17a Compacted 1@1 + 1@2 files => 13826 bytes
+2026/02/17-23:47:42.453 4e17a compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/02/17-23:47:42.454 4e17a Delete type=2 #5
+2026/02/17-23:47:42.454 4e17a Delete type=2 #7
+2026/02/17-23:57:44.564 4e169 Level-0 table #10: started
+2026/02/17-23:57:44.584 4e169 Level-0 table #10: 1720476 bytes OK
+2026/02/17-23:57:44.590 4e169 Delete type=0 #6
+2026/02/18-00:04:18.954 4e169 Compacting 1@1 + 1@2 files
+2026/02/18-00:04:18.963 4e169 Generated table #11@1: 31 keys, 26818 bytes
+2026/02/18-00:04:18.963 4e169 Compacted 1@1 + 1@2 files => 26818 bytes
+2026/02/18-00:04:18.970 4e169 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/02/18-00:04:18.971 4e169 Delete type=2 #8
+2026/02/18-00:04:18.971 4e169 Delete type=2 #10

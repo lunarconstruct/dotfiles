@@ -54,7 +54,7 @@
             "icon": "\udb83\udd11",
             "icon_size": "20px",
             "tooltip": true,
-            "default_lang": "rus+eng"
+            "default_lang": "eng"
         },
         "dynamic_island": {
             "power_menu": {
@@ -87,7 +87,10 @@
                 "method": "swww",
                 "wallpapers_dirs": [
                     "/home/lunarconstruct/.local/share/wallpapers",
-                    "/home/lunarconstruct/.local/share/pawlette/theme_wallpapers"
+                    "/home/lunarconstruct/.local/share/pawlette/theme_wallpapers",
+                    "/home/lunarconstruct/Pictures",
+                    "/mnt/raid5/look/oakfrogs",
+                    "/mnt/raid5/look/oakfrogs/2025.11 ✿┆medieval fantasy/desktop/desktop wallpapers/illustrated wallpapers/snowy wallpapers"
                 ],
                 "save_current_wall": true,
                 "current_wall_path": "/home/lunarconstruct/.local/share/wallpapers/.current.wall"

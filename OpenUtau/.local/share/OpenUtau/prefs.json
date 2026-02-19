@@ -1,22 +1,22 @@
 ﻿{
   "MainWindowSize": {
-    "Width": 1200.0,
-    "Height": 650.0,
-    "PositionX": 1241,
-    "PositionY": 1297,
+    "Width": 1902.0,
+    "Height": 1022.0,
+    "PositionX": 9,
+    "PositionY": 49,
     "State": 0
   },
   "PianorollWindowSize": {
-    "Width": 1920.0,
-    "Height": 1043.0,
-    "PositionX": 1080,
-    "PositionY": 1080,
+    "Width": 942.0,
+    "Height": 1022.0,
+    "PositionX": 9,
+    "PositionY": 49,
     "State": 0
   },
   "UndoLimit": 100,
   "SingerSearchPaths": [],
-  "PlaybackDevice": "00000007-0000-0000-ae33-44cc9de3fced",
-  "PlaybackDeviceNumber": 0,
+  "PlaybackDevice": "00000007-0000-0000-751b-47c667ab93c6",
+  "PlaybackDeviceNumber": 3,
   "PlaybackDeviceIndex": null,
   "ShowPrefs": true,
   "ShowTips": false,
@@ -26,8 +26,8 @@
   "UseTrackColor": true,
   "ClearCacheOnQuit": false,
   "PreRender": true,
-  "NumRenderThreads": 2,
-  "DefaultRenderer": "WORLDLINE-R",
+  "NumRenderThreads": 8,
+  "DefaultRenderer": "Classic",
   "WorldlineR": 0,
   "OnnxRunner": "CPU",
   "OnnxGpu": 0,
@@ -37,23 +37,23 @@
   "DiffSingerStepsPitch": 10,
   "DiffSingerTensorCache": true,
   "DiffSingerLangCodeHide": false,
-  "SkipRenderingMutedTracks": false,
+  "SkipRenderingMutedTracks": true,
   "Language": "en-US",
   "SortingOrder": "en-US",
   "RecentFiles": [
+    "/mnt/hdd1/Vocalsynth/UTAU/USTs/JP_all i can see is you あなたしか見えないの/あなたしか見えないの_ust(x)/あなたしか見えないの_ustx.ustx",
     "/mnt/hdd1/Vocalsynth/UTAU/USTs/JP_wowaka unhappy refrain album/4_boku no sainou [merisdae]/boku no sainou.ustx",
     "/mnt/hdd1/Vocalsynth/UTAU/USTs/JP_Ashi desu ka. 葦ですか。/ashi desu.ustx",
-    "/mnt/hdd1/Vocalsynth/UTAU/USTs/EN_BIRDBRAIN/birdbrain.ustx",
-    "/run/user/1000/kio-fuse-iBGwyW/sftp/lunarconstruct@192.168.10.100:22/mnt/hdd1/Vocalsynth/UTAU/USTs/JP_Glow/glow.ustx",
-    "/run/user/1000/kio-fuse-iBGwyW/sftp/lunarconstruct@192.168.10.100:22/mnt/hdd1/Vocalsynth/UTAU/USTs/JP_Bug/bug.ustx"
+    "/mnt/hdd1/Vocalsynth/UTAU/USTs/EN_BIRDBRAIN/birdbrain.ustx"
   ],
   "SkipUpdate": "0.1.567",
-  "AdditionalSingerPath": "/run/user/1000/kio-fuse-iBGwyW/smb/grandpi.local/hdd1/Vocalsynth/UTAU/Voicebanks",
+  "AdditionalSingerPath": "/mnt/hdd1/Vocalsynth/UTAU/Voicebanks",
   "InstallToAdditionalSingersPath": true,
   "LoadDeepFolderSinger": true,
   "PreferCommaSeparator": false,
   "ResamplerLogging": false,
   "RecentSingers": [
+    "Canelé/Canelé -STARDUST-",
     "Merisdae/Merisdae -NEW PHASE-"
   ],
   "FavoriteSingers": [
@@ -61,8 +61,13 @@
     "Merisdae/Merisdae -NEW PHASE-",
     "Yudora/Yudora -CONSTELLATION-"
   ],
-  "SingerPhonemizers": {},
-  "RecentPhonemizers": [],
+  "SingerPhonemizers": {
+    "Merisdae/Merisdae -NEW PHASE-": "OpenUtau.Plugin.Builtin.JapaneseCVVCPhonemizer"
+  },
+  "RecentPhonemizers": [
+    "OpenUtau.Plugin.Builtin.JapaneseCVVCPhonemizer",
+    "OpenUtau.Plugin.Builtin.JapanesePresampPhonemizer"
+  ],
   "PreferPortAudio": false,
   "PlayPosMarkerMargin": 0.9,
   "LockStartTime": 0,
@@ -87,8 +92,8 @@
   },
   "LyricHelper": "HiraganaLyricsHelper",
   "LyricsHelperBrackets": false,
-  "OtoEditor": 0,
-  "VLabelerPath": "",
+  "OtoEditor": 1,
+  "VLabelerPath": "/mnt/hdd1/Vocalsynth/UTAU/Tools and Plugins/vLabeler/vLabeler.exe",
   "SetParamPath": "",
   "Beta": true,
   "RememberMid": false,
@@ -96,11 +101,11 @@
   "RememberVsqx": true,
   "WinePath": "/usr/bin/wine",
   "PhoneticAssistant": "",
-  "RecentOpenSingerDirectory": "/run/user/1000/kio-fuse-iBGwyW/smb/grandpi.local/hdd1/Vocalsynth/UTAU/Voicebanks",
-  "RecentOpenProjectDirectory": "/mnt/hdd1/Vocalsynth/UTAU/USTs/JP_wowaka unhappy refrain album/4_boku no sainou [merisdae]",
-  "LockUnselectedNotesPitch": true,
-  "LockUnselectedNotesVibrato": true,
-  "LockUnselectedNotesExpressions": true,
+  "RecentOpenSingerDirectory": "/mnt/hdd1/Vocalsynth/UTAU/Voicebanks",
+  "RecentOpenProjectDirectory": "/mnt/hdd1/Vocalsynth/UTAU/USTs/JP_all i can see is you あなたしか見えないの/あなたしか見えないの_ust(x)",
+  "LockUnselectedNotesPitch": false,
+  "LockUnselectedNotesVibrato": false,
+  "LockUnselectedNotesExpressions": false,
   "VoicebankPublishUseIgnore": true,
   "VoicebankPublishIgnores": "#Adobe Audition\n*.pkf\n\n#UTAU Engines\n*.ctspec\n*.d4c\n*.dio\n*.frc\n*.frt\n#*.frq\n*.harvest\n*.lessaudio\n*.llsm\n*.mrq\n*.pitchtier\n*.pkf\n*.platinum\n*.pmk\n*.star\n*.uspec\n*.vs4ufrq\n\n#UTAU related tools\n$read\n*.setParam-Scache\n*.lbp\n*.lbp.caches/*\n\n#OpenUtau\nerrors.txt\n*.sc.npz",
   "RecoveryPath": ""

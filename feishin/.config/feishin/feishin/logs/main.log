@@ -1,0 +1,19 @@
+[2026-02-17 21:24:38.389] [info]  [SYSTEM] Checking for update
+[2026-02-17 21:24:38.522] [info]  [SYSTEM] Generated new staging user ID: c790b14c-caa6-5f2e-b3a6-71f23ac4bcbc
+[2026-02-17 21:24:39.955] [info]  [SYSTEM] Update for version 1.6.0 is not available (latest version: 1.6.0, downgrade is allowed).
+[2026-02-17 21:29:16.804] [info]  [SYSTEM] Checking for update
+[2026-02-17 21:29:18.460] [info]  [SYSTEM] Update for version 1.6.0 is not available (latest version: 1.6.0, downgrade is allowed).
+[2026-02-17 21:29:55.444] [info]  [SYSTEM] Checking for update
+[2026-02-17 21:29:56.630] [info]  [SYSTEM] Update for version 1.6.0 is not available (latest version: 1.6.0, downgrade is allowed).
+[2026-02-17 21:33:15.940] [info]  [SYSTEM] Checking for update
+[2026-02-17 21:33:17.332] [info]  [SYSTEM] Update for version 1.6.0 is not available (latest version: 1.6.0, downgrade is allowed).
+[2026-02-17 21:36:44.731] [error] [AUDIO PLAYER] Setting properties: {"speed":1}
+[2026-02-17 21:36:44.777] [error] [AUDIO PLAYER] Failed to create temporary MPV instance for audio device list - mpv errorcode 8 - MPV is not running
+[2026-02-17 21:36:44.777] [error] [AUDIO PLAYER] Failed to create temporary MPV instance for audio device list
+[2026-02-17 21:36:44.778] [error] [AUDIO PLAYER] Attempting to initialize mpv with parameters: {"extraParameters":[],"properties":{"audio-exclusive":"no","gapless-audio":"weak","replaygain":"no","replaygain-clip":true,"replaygain-preamp":0,"speed":1,"volume":30}}
+[2026-02-17 21:36:44.787] [error] [AUDIO PLAYER] Failed to initialize mpv, falling back to web player - mpv errorcode 8 - MPV is not running
+[2026-02-17 21:36:44.787] [error] [AUDIO PLAYER] Failed to initialize mpv, falling back to web player
+[2026-02-17 21:39:05.368] [info]  [SYSTEM] Checking for update
+[2026-02-17 21:39:06.593] [info]  [SYSTEM] Update for version 1.6.0 is not available (latest version: 1.6.0, downgrade is allowed).
+[2026-02-18 19:07:38.422] [info]  [SYSTEM] Checking for update
+[2026-02-18 19:07:50.081] [info]  [SYSTEM] Update for version 1.6.0 is not available (latest version: 1.6.0, downgrade is allowed).
