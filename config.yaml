@@ -1,0 +1,65 @@
+config:
+  backup: true
+  banner: true
+  create: true
+  dotpath: templates
+  keepdot: false
+  link_dotfile_default: nolink
+  link_on_import: nolink
+  longkey: false
+dotfiles:
+  d_hypr:
+    src: config/hypr
+    dst: ~/.config/hypr
+  d_alacritty:
+    src: config/alacritty
+    dst: ~/.config/alacritty
+  d_mewline:
+    src: config/mewline
+    dst: ~/.config/mewline
+  d_feishin:
+    src: config/feishin
+    dst: ~/.config/feishin
+  d_kvantum:
+    src: config/Kvantum
+    dst: ~/.config/Kvantum
+  d_rofi:
+    src: config/rofi
+    dst: ~/.config/rofi
+  f_hyfetch.json:
+    src: config/hyfetch.json
+    dst: ~/.config/hyfetch.json
+  d_qt5ct:
+    src: config/qt5ct
+    dst: ~/.config/qt5ct
+  d_polybar:
+    src: config/polybar
+    dst: ~/.config/polybar
+  d_openutau:
+    src: config/OpenUtau
+    dst: ~/.configls -F ~/.local/share/OpenUtau//OpenUtau
+  f_theme.yaml:
+    src: local/share/OpenUtau/theme.yaml
+    dst: ~/.local/share/OpenUtau/theme.yaml
+  f_prefs.json:
+    src: local/share/OpenUtau/prefs.json
+    dst: ~/.local/share/OpenUtau/prefs.json
+  d_qt6ct:
+    src: config/qt6ct
+    dst: ~/.config/qt6ct
+profiles:
+  LUNAR-PC:
+    dotfiles:
+    - d_hypr
+    - d_alacritty
+    - d_mewline
+    - d_feishin
+    - d_kvantum
+    - d_rofi
+    - f_hyfetch.json
+    - d_qt5ct
+    - d_polybar
+    - d_openutau
+    - f_theme.yaml
+    - f_prefs.json
+    - d_qt6ct

@@ -1,0 +1,3 @@
+name=拡張フラグエディタ
+execute=flagedit.exe
+ustversion=1.00

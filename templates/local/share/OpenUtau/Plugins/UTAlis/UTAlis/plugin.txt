@@ -1,0 +1,2 @@
+name=UTAlis
+execute=UTALis.exe

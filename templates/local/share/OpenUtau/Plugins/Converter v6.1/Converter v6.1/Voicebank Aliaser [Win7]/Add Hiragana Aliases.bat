@@ -1,0 +1,1 @@
+perl addhiragana.pl %1

@@ -1,0 +1,2 @@
+name=Romaji <-> Hiragana
+execute=romantokana.exe

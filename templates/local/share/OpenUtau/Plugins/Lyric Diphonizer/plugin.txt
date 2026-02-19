@@ -1,0 +1,2 @@
+name=‰ÌŽŒ‚ð˜A‘±‰¹‚É‚·‚é
+execute=Nanofreq.UTAUPlugins.LyricDiphonizer.exe

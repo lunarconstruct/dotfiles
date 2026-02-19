@@ -1,0 +1,2 @@
+name=˜A‘±‰¹‚ð’P“Æ‰¹‰»
+execute=wrap.exe

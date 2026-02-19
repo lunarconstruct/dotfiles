@@ -1,0 +1,3 @@
+name=拡張ピッチエディタ
+execute=pittrace.exe
+ustversion=1.00

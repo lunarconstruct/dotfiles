@@ -1,0 +1,9 @@
+option01=-1
+option02=-1
+option03=-1
+option04=-1
+option05=-1
+option06=0
+option07=
+option08=-1
+OpenTab=0

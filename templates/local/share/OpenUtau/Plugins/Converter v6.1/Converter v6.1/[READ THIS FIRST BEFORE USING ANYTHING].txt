@@ -1,0 +1,39 @@
+The Essential UTAU Toolkit
+
+This is a collection of things that you can use for things involving hiragana/romaji
+conversions and other stuff. Whether or not you have changed your locale, all of the
+things in this toolkit can still be useful to you.
+
+Please note that since version 6.0, this toolkit no longer has its own native UST converter.
+If you are desperate to use it, the last version that supported it was version 5.1, which you
+can still download at the page. However, I am not taking any more questions or bug reports
+regarding anything before the current version.
+
+The regular voicebank aliaser runs on a code release called "TextRep". The TextRep core
+program was made by Xiangyang Liu on The Code Project. In order for TextRep to run,
+you must have Java. Now most computers today have Java on it, but just in case, you may
+want to make sure you have Java before you try anything. To see if you have the latest
+version of Java, visit http://www.java.com/en/download/installed.jsp .
+
+Windows 7 users may have problems running the regular release aliaser.
+Thus, please run the version inside "Voicebank Aliaser [Win7]" if and only if you have these problems.
+Please note that there may be some locale errors with this. Also, to use the Windows 7 version,
+you need to install Perl, which you may obtain at http://strawberryperl.com/ .
+
+If you have any bug reports, suggestions, or comments, please email me at
+asterselene@gmail.com or contact me on the Overseas UTAU Forum or Vocaloid Otaku.
+
+There is also a side program called "TestUST". I did not make this program; it was made
+by BlueboyX. It generates a test UST for a new voicebank. A readme is included. I am not
+responsible for maintaining the program; all bug reports regarding that program go to him.
+
+The Windows 7 Perl version was created by N8.
+
+Please read the readmes for each individual section as well.
+
+Redistribution in whole or part is not allowed (unless you are redistributing the
+TextRep program and the TextRep program only). In addition, edits or derivations
+of the program may only be done after an email is sent to asterselene@gmail.com
+regarding the purposes of the edit and the location of the redistribution. The
+exception for the redistribution/edit clause is regarding translated versions,
+in which they may be done freely after only the translation is applied.

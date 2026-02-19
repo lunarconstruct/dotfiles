@@ -1,0 +1,4 @@
+type=editplugin
+folder=autocvvc_1.23
+contentsdir=autocvvc_1.23
+description=

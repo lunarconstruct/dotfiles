@@ -1,0 +1,3 @@
+fulllen false
+blendvowels false
+blendengvowels false

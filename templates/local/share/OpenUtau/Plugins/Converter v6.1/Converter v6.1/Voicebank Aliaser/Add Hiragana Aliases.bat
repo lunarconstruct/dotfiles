@@ -1,0 +1,1 @@
+java TextRep oto.ini addhiragana.txt

@@ -1,0 +1,4 @@
+type=editplugin
+folder=frqeditor
+contentsdir=frqeditor
+description=周波数表を編集するプラグインです

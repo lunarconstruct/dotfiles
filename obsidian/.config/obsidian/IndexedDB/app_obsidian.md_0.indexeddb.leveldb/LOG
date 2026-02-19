@@ -1,5 +1,0 @@
-2026/02/15-21:49:17.424 5c5c0 Creating DB /home/lunarconstruct/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb since it was missing.
-2026/02/15-21:49:17.430 5c5c0 Reusing MANIFEST /home/lunarconstruct/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
-2026/02/15-21:49:27.984 5c663 Level-0 table #5: started
-2026/02/15-21:49:28.008 5c663 Level-0 table #5: 1201850 bytes OK
-2026/02/15-21:49:28.013 5c663 Delete type=0 #3

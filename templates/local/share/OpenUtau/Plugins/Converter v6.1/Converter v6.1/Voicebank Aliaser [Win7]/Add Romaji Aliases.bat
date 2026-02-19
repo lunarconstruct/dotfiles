@@ -1,0 +1,1 @@
+perl addromaji.pl %1

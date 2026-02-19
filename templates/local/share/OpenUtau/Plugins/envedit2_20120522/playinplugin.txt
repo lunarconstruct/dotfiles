@@ -1,0 +1,97 @@
+﻿PlayInPlugin.exe について
+
+このツールは、プラグインの中から再生動作を行うことを想定したツールです。
+
+
+■起動オプションについて
+playinplugin  inputfile  [/m:mergefile]  [/o:outputfile]
+				[/noplay]  [/nodeletewav]  [/nodeletecache]  [/debug]
+
+例)
+playinplugin  C:\foo\bar.tmp  /m:C:\foo\bar.merge  /noplay
+
+inputfile
+	inputfile に書かれたシーケンスにしたがってレンダリングを行います。
+	処理後は inputfile の内容が書き変わってしまいますので、必要ならばバックアップをとっておいてください。
+	なお、拙作“５点以上対応エンベロープエディター”用の wavtool2.exe の都合上、
+	inputfile の拡張子を .ust にしていただけるとありがたいです。
+
+/m:mergefile
+	inputfile をベースに、mergefile をマージします。
+	inputfile はUTAUから渡されたシーケンスファイル、
+	mergefile はUTAUに返すシーケンスファイルに相当します。
+	たとえば、mergefile には [#DELETE] や [#INSERT] を含めることができます。
+	レンダリング後、mergefile は削除されます。
+
+/o:outputfile
+	レンダリング結果を出力する wav ファイルを指定します。
+	このオプションを指定しなかった場合は、
+	inputfile と同じフォルダーに plugin_temp.wav というファイル名で生成されます。
+
+/noplay
+	レンダリング後、wav ファイルを再生せずに終了します。
+	このオプションを指定しなかった場合は、レンダリング後に wav ファイルを自動再生します。
+	/nodelete オプションと組み合わせて、呼び出し側できめ細かい再生動作を行うのに向いています。
+	たとえば再生動作に合わせて画面をスクロールしたり、一時停止ボタンを用意したりするなど。
+
+/nodeletewav
+	レンダリング後の wav ファイルを削除しません。
+	このオプションを指定しなかった場合は、wav ファイルを削除します。
+	/noplay オプションと組み合わせて、呼び出し側できめ細かい再生動作を行うのに向いています。
+	たとえば再生動作に合わせて画面をスクロールしたり、一時停止ボタンを用意したりするなど。
+
+/nodeletecache
+	レンダリングの過程で作成したキャッシュファイルを削除しません。
+	何度も再生するときのレンダリング時間を短縮するために用意されているオプションです。
+	このオプションを指定しなかった場合は、キャッシュファイルを削除します。
+	なお、inputfile の拡張子を .cache に置き換えた名前のフォルダーが作成され、
+	その中にキャッシュファイルが作成されます。
+	inputfile の中で指定された CacheDir は使われません。
+	（CacheDir は、元々の ust ファイルを推測するために使用されます）
+	また、キャッシュファイル名は選択範囲の先頭から 0_*.wav, 1_*.wav, ... のように
+	0 からの通し番号で命名されます。ノートの番号が使われるわけではないので注意してください。
+
+/debug
+	レンダリングの過程で作成する一時ファイルを削除しません。
+	このオプションを指定しなかった場合は、一時ファイルを削除します。
+
+パラメーターに空白が含まれる場合は二重引用符で囲ってください。
+例) "/m:C:\plugin test\foo.tmp"
+
+inputfile の指定は必須です。
+
+■Mode2、Tool1、Tool2 について
+[#SETTING] セクションに Mode2、Tool1、Tool2 を含めることができます。
+　例)
+　[#SETTING]
+　Mode2=True
+　Tool1=wavtool.exe
+　Tool2=resampler.exe
+これらが指定されていない場合は、CacheDir をもとに ust ファイル名を推測し、そこから取得します。
+そこにも指定されていない場合は、UTAU フォルダーの setting.ini から取得します。
+
+■resampler.dll について
+resampler10.dll/wavtool2.dll を使うかどうかは setting.ini から取得します。
+
+■インストールフォルダーについて
+setting.ini や resampler.dll を参照する処理においては、
+UTAU のプラグインフォルダーにインストールされることを想定しています。
+他のフォルダー構成の場合は正常に動作しません。
+
+　例)
+　[C:\Program Files\UTAU]
+　　| utau.exe
+　　| setting.ini
+　　| resampler10.dll
+　　| wavtool2.dll
+　　+- [PlugIns]
+　　　+- [任意のプラグインフォルダー]
+　　　　plugin.exe
+　　　　plugin.txt
+　　　　PlayInPlugin.exe　// ここにインストールされている必要があります。
+
+■終了コードについて
+正常終了時はプロセスの終了コードに 0 が格納されます。
+エラー発生時はプロセスの終了コードに Windows のエラー番号が格納されます。
+レンダリングがキャンセルボタンで中止された場合は ERROR_CANCELLED (1223) が返ります。
+レンダリング後の再生がキャンセルボタンで中止された場合は 0 が返ります。

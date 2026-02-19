@@ -1,0 +1,3 @@
+type=editplugin
+folder=pastespecial
+description=あらかじめクリップボードへコピーしておいた音符を貼り付けます。長さだけとかエンベロープだけなど、形式を選択することができます。

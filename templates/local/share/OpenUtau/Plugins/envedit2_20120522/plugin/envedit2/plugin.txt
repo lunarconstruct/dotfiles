@@ -1,0 +1,2 @@
+name=Envelope Editor 2
+execute=envedit2.exe
