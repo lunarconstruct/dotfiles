@@ -7,10 +7,14 @@ config:
   link_dotfile_default: nolink
   link_on_import: nolink
   longkey: false
+  import_variables:
+    - themes.yaml
 dotfiles:
   d_hypr:
     src: config/hypr
     dst: ~/.config/hypr
+    template: true
+    link: nolink
   d_alacritty:
     src: config/alacritty
     dst: ~/.config/alacritty
@@ -37,7 +41,7 @@ dotfiles:
     dst: ~/.config/polybar
   d_openutau:
     src: config/OpenUtau
-    dst: ~/.configls -F ~/.local/share/OpenUtau//OpenUtau
+    dst: ~/.config/OpenUtau
   f_theme.yaml:
     src: local/share/OpenUtau/theme.yaml
     dst: ~/.local/share/OpenUtau/theme.yaml
@@ -50,16 +54,4 @@ dotfiles:
 profiles:
   LUNAR-PC:
     dotfiles:
-    - d_hypr
-    - d_alacritty
-    - d_mewline
-    - d_feishin
-    - d_kvantum
-    - d_rofi
-    - f_hyfetch.json
-    - d_qt5ct
-    - d_polybar
-    - d_openutau
-    - f_theme.yaml
-    - f_prefs.json
-    - d_qt6ct
+    - ALL

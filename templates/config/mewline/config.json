@@ -44,7 +44,7 @@
             "tooltip": true
         },
         "datetime": {
-            "format": "%m/%d/%y %H:%M"
+            "format": "%m/%d/%y %I:%M %p"
         },
         "battery": {
             "show_label": false,

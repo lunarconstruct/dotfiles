@@ -1,0 +1,87 @@
+variables:
+  themes:
+    # --- CATPPUCCIN MOCHA ---
+    mocha:
+      # full list
+      rosewater: "f5e0dc"
+      flamingo: "f2cdcd"
+      pink: "f5c2e7"
+      mauve: "cba6f7"
+      red: "f38ba8"
+      maroon: "eba0ac"
+      peach: "fab387"
+      yellow: "f9e2af"
+      green: "a6e3a1"
+      teal: "94e2d5"
+      sky: "89dceb"
+      sapphire: "74c7ec"
+      blue: "89b4fa"
+      lavender: "b4befe"
+      text: "cdd6f4"
+      subtext1: "bac2de"
+      subtext0: "a6adc8"
+      overlay2: "9399b2"
+      overlay1: "7f849c"
+      overlay0: "6c7086"
+      surface2: "585b70"
+      surface1: "45475a"
+      surface0: "313244"
+      base: "1e1e2e"
+      mantle: "181825"
+      crust: "11111b"
+
+      # UI Basics
+      bg: "{{@@ themes.mocha.base @@}}"
+      bg_soft: "{{@@ themes.mocha.mantle @@}}"
+      bg_hard: "{{@@ themes.mocha.crust @@}}"
+      fg: "{{@@ themes.mocha.text @@}}"
+      fg_dim: "{{@@ themes.mocha.overlay1 @@}}"
+      accent: "{{@@ themes.mocha.pink @@}}"
+      
+      # Rainbow / Gradient Sequence
+      r_red: "{{@@ themes.mocha.red @@}}"
+      r_orange: "{{@@ themes.mocha.peach @@}}"
+      r_yellow: "{{@@ themes.mocha.yellow @@}}"
+      r_green: "{{@@ themes.mocha.green @@}}"
+      r_blue: "{{@@ themes.mocha.blue @@}}"
+      r_purple: "{{@@ themes.mocha.lavender @@}}"
+      r_pink: "{{@@ themes.mocha.pink @@}}"
+
+    # --- ROSÉ PINE ---
+    rose_pine:
+      # full list
+      base: "191724"
+      surface: "1f1d2e"
+      overlay: "26233a"
+      muted: "6e6a86"
+      subtle: "908caa"
+      text: "e0def4"
+      love: "eb6f92"
+      gold: "f6c177"
+      rose: "ebbcba"
+      pine: "31748f"
+      foam: "9ccfd8"
+      iris: "c4a7e7"
+      highlight low: "21202e"
+      highlight med: "403d52"
+      highlight high: "524f67"
+      
+      # UI Basics
+      bg: "191724"       # base
+      bg_soft: "1f1d2e"  # surface
+      bg_hard: "110f18"  # (darker overlay)
+      fg: "e0def4"       # text
+      fg_dim: "6e6a86"   # muted
+      accent: "c4a7e7"   # iris
+      
+      # Rainbow / Gradient Sequence
+      r_red: "eb6f92"    # love
+      r_orange: "ebbcba" # rose
+      r_yellow: "f6c177" # gold
+      r_green: "9ccfd8"  # foam
+      r_blue: "31748f"   # pine
+      r_purple: "c4a7e7" # iris
+      r_pink: "ebbcba"   # (fallback to rose)
+
+  # this will switch the active theme.
+  theme_name: "mocha"
