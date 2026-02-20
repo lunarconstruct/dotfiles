@@ -55,3 +55,6 @@ profiles:
   LUNAR-PC:
     dotfiles:
     - ALL
+  grandpi:
+    dotfiles:
+    - f_hyfetch.json
